@@ -118,7 +118,3 @@ finishedData.to_excel('finishedData.xlsx')
 failedData = pd.DataFrame(failedList, columns = ['Title', 'Status'])
 failedData.to_excel('failedData.xlsx')
 
-
-
-
-
